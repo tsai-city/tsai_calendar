@@ -30,12 +30,13 @@ def getDatetime(daystamp, timestamp):
     fullTimestamp = fullTimestamp.replace(" ", "")
     # parse and return
     d = datetime.strptime(fullTimestamp, "%Y-%m-%d-%I:%M%p")
-    d = d.replace(tzinfo=timezone("EST"))
+    # d = d.replace(tzinfo=timezone("EST"))
     return d
 
 
 def getToday():
-    d = datetime.now().replace(tzinfo=timezone("EST"))
+    d = datetime.now()
+    # .replace(tzinfo=timezone("EST"))
     d = d.strftime("%Y-%m-%d")
     return d
 
