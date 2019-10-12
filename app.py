@@ -16,6 +16,62 @@ airtable = Airtable(
     base_key="appgB7xnfEEOctuUM", table_name="Events", api_key="keyuvixHmS5OHI7rO"
 )
 
+
+@app.route("/")
+def index():
+    return f"Tsai CITY ICS feed generator. Navigate to either /public or /private"
+
+
+def getDatetime(daystamp, timestamp):
+    # alter timestamp
+    if "AM" not in timestamp or "PM" not in timestamp:
+        timestamp = "12:00AM"
+    # make full timestamp
+    fullTimestamp = daystamp + "-" + timestamp
+    fullTimestamp = fullTimestamp.replace(" ", "")
+    # parse and return
+    d = datetime.strptime(fullTimestamp, "%Y-%m-%d-%I:%M%p")
+    d = d.replace(tzinfo=timezone("EST"))
+    return d
+
+
+def getToday():
+    d = datetime.now().replace(tzinfo=timezone("EST"))
+    d = d.strftime("%Y-%m-%d")
+    return d
+
+
+def transformAirtableObjToICSEvent(airtableObj):
+    fields = airtableObj["fields"]
+
+    event = Event()
+    event.add("summary", fields["Event Title"] if "Event Title" in fields else "")
+    event.add("description", fields["Event Blurb"] if "Event Blurb" in fields else "")
+    event.add(
+        "dtstart",
+        getDatetime(
+            fields["Date"] if "Date" in fields else getToday(),
+            fields["Start"] if "Start" in fields else "",
+        ),
+    )
+    event.add(
+        "dtend",
+        getDatetime(
+            fields["Date"] if "Date" in fields else getToday(),
+            fields["End"] if "End" in fields else "",
+        ),
+    )
+    event.add(
+        "dtstamp",
+        getDatetime(
+            fields["Date"] if "Date" in fields else getToday(),
+            fields["Start"] if "Start" in fields else "",
+        ),
+    )
+    event["uid"] = str(uuid1())
+    return event
+
+
 # helper function to check if an airtable event is public
 def isPublic(event):
     if "Calendar Code" in event["fields"]:
@@ -23,94 +79,20 @@ def isPublic(event):
     return False
 
 
-def calendarFromICSEvents(icsEvents):
-    c = Calendar()
-    for e in icsEvents:
-        c.add_component(e)
-    return c
-
-
-@app.route("/")
-def index():
-    return (
-        f"Tsai CITY ICS feed generator. Navigate to either /public-csv or /private-csv"
-    )
-
-
-####### NEW
-
-
-def getToday():
-    d = datetime.now().replace(tzinfo=timezone("EST"))
-    d = d.strftime("%m/%d/%Y")
-    return d
-
-
-def transformAirtableObjToDict(airtableObj):
-    fields = airtableObj["fields"]
-    row = {
-        "Subject": fields["Event Title"] if "Event Title" in fields else "",
-        "Start Date": fields["Date"] if "Date" in fields else getToday(),
-        "Start Time": fields["Start"] if "Start" in fields else "",
-        "End Date": fields["Date"] if "Date" in fields else getToday(),
-        "End Time": fields["End"] if "End" in fields else "",
-        "Description": fields["Event Blurb"] if "Event Blurb" in fields else "",
-    }
-    return row
-
-
-def getRows(rows_type="public"):
-    # pull all events
-    all_events = airtable.get_all(view="Everything Next")
-    # filter by private or public
-    if rows_type == "private":
-        filtered = list(filter(lambda event: not isPublic(event), all_events))
-    else:
-        filtered = list(filter(lambda event: isPublic(event), all_events))
-    # transform filtered
-    transformed = [transformAirtableObjToDict(i) for i in filtered]
-    return transformed
-
-
-######
-
-
-def getDatetime(daystamp, timestamp):
-    # make full timestamp
-    daystamp = daystamp.replace("-", "/")
-    if "AM" not in timestamp or "PM" not in timestamp:
-        timestamp = "12:00AM"
-    fullTimestamp = daystamp + "-" + timestamp
-    # remove whitespace
-    fullTimestamp = fullTimestamp.replace(" ", "")
-    # parse and returns
-    d = datetime.strptime(fullTimestamp, "%Y/%m/%d-%I:%M%p")
-    d = d.replace(tzinfo=timezone("EST"))
-    return d
-
-
-def transformDictRowToICSEvent(row):
-    event = Event()
-    event.add("summary", row["Subject"])
-    event.add("description", row["Description"])
-    event.add("dtstart", getDatetime(row["Start Date"], row["Start Time"]))
-    event.add("dtend", getDatetime(row["End Date"], row["End Time"]))
-    event.add("dtstamp", getDatetime(row["Start Date"], row["Start Time"]))
-    event["uid"] = str(uuid1())
-    return event
-
-
 @app.route("/private")
 def private_ics():
+    # get airtable rows
+    all_events = airtable.get_all(view="Everything Next")
+    filtered = list(filter(lambda event: not isPublic(event), all_events))
+    transformed = [transformAirtableObjToICSEvent(i) for i in filtered]
+
     # prepare
     cal = Calendar()
-    cal.add("prodid", "<tsai-cal>")
+    cal.add("prodid", "<tsai-cal-private>")
     cal.add("version", "2.0")
-    rows = getRows("private")
 
     # create events
-    events = [transformDictRowToICSEvent(r) for r in rows]
-    for e in events:
+    for e in transformed:
         cal.add_component(e)
 
     if os.path.exists("private.ics"):
@@ -119,3 +101,27 @@ def private_ics():
     f.write(cal.to_ical())
     f.close()
     return send_file("private.ics", as_attachment=True, cache_timeout=-1)
+
+
+@app.route("/public")
+def public_ics():
+    # get airtable rows
+    all_events = airtable.get_all(view="Everything Next")
+    filtered = list(filter(lambda event: isPublic(event), all_events))
+    transformed = [transformAirtableObjToICSEvent(i) for i in filtered]
+
+    # prepare
+    cal = Calendar()
+    cal.add("prodid", "<tsai-cal-public>")
+    cal.add("version", "2.0")
+
+    # create events
+    for e in transformed:
+        cal.add_component(e)
+
+    if os.path.exists("public.ics"):
+        os.remove("public.ics")
+    f = open("public.ics", "wb")
+    f.write(cal.to_ical())
+    f.close()
+    return send_file("public.ics", as_attachment=True, cache_timeout=-1)

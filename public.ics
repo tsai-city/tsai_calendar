@@ -1,0 +1,649 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:<tsai-cal-public>
+BEGIN:VEVENT
+SUMMARY:CITY Orientation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191011T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191011T000000
+DTSTAMP;VALUE=DATE-TIME:20191011T050000Z
+UID:bed44c98-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Immersive Tech Bootcamp Session 2: Intro MR
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191012T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191012T000000
+DTSTAMP;VALUE=DATE-TIME:20191012T050000Z
+UID:bed455e4-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:This workshop is an session focused on immersive technologies.
+  We'll start with a short talk about immersive tech and a few demonstratio
+ ns. Afterwards\, we'll delve into the Unity Game Engine to discuss how to 
+ build an immersive experience. This workshop is geared towards those with 
+ little to no programming experience\, but all levels are welcome.\nSkills 
+ Covered Include:\n- Introduction to Unity\n- Building a 3D environment in 
+ Unity\n- Creating a Virtual Reality environment in Unity\n- Developing Aug
+ mented Reality applications in Unity
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Allies
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191022T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191022T000000
+DTSTAMP;VALUE=DATE-TIME:20191022T050000Z
+UID:bed45d82-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191023T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191023T000000
+DTSTAMP;VALUE=DATE-TIME:20191023T050000Z
+UID:bed464b2-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Business Law 101 \n\nBusiness Law 101 is a beginner's g
+ uide to the various legal entities of a business and how to start the proc
+ ess. This workshop will provide a brief overview of the key ways to legali
+ ze and protect your business\, and clarify the differences among them.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Orientation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191024T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191024T000000
+DTSTAMP;VALUE=DATE-TIME:20191024T050000Z
+UID:bed46bce-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yale Innovation\, Remixed: Event & Reception
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191024T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191024T000000
+DTSTAMP;VALUE=DATE-TIME:20191024T050000Z
+UID:bed472c2-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Join the Tsai Center for Innovative Thinking at Yale (Tsai CIT
+ Y) and the Center for Science and Social Science Information (CSSSI) for a
+  lively conversation and reception to celebrate the opening of Yale Innova
+ tion Remixed\, a media exhibit at the CSSSI. The exhibit explores Tsai CIT
+ Y's programs alongside stories of Yale innovations that span time periods\
+ , disciplines\, and focus areas.\n\nAt this event\, you'll hear about the 
+ exhibit and Yale's ecosystem for entrepreneurship and innovation. Inspirin
+ g student innovators will share the stories behind the projects and ventur
+ es they're currently building\, before we continue the conversation over r
+ efreshments. Throughout the program\, we'll consider the art of the remix:
+  taking different elements or ideas and finding new ways to combine them 
+ — creating something novel in the process.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Open Workshop 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191025T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191025T000000
+DTSTAMP;VALUE=DATE-TIME:20191025T050000Z
+UID:bed479c0-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:[LAURA\, please edit -- looking to attract non-clinical majors
+ \; have had good success in prior cohorts with PhD students given their le
+ vel of commitment. This workshop would be entryway to Spring cohort for a 
+ select group to do project work.]\nAre you interested in tackling healthca
+ re’s toughest challenges? Do you have a unique way of approaching a prob
+ lem and arriving at a creative solution? The Clinical Redesign team is int
+ erested in engaging students of non-clinical and diverse disciplines to ta
+ ke a first-hand look at challenges facing frontline healthcare providers. 
+ The Clinical Redesign team helps YNHHS staff “rethink” how to deliver 
+ care\, “realign” resources to better meet patients’ needs\, and “r
+ edesign” the processes that are crucial to the successful\, sustainable 
+ delivery of that care. Come and learn more about Clinical Redesign in this
+  2-session workshop and provide a fresh perspective to healthcare’s toug
+ hest challenges. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Open Workshop 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191030T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191030T000000
+DTSTAMP;VALUE=DATE-TIME:20191030T050000Z
+UID:bed480c8-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts + Media Innovation Fund - Applications Due
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191030T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191030T000000
+DTSTAMP;VALUE=DATE-TIME:20191030T050000Z
+UID:bed4879e-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Space Exploration Workshop Series: Prototyping our Life in Space
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTSTAMP;VALUE=DATE-TIME:20191101T050000Z
+UID:bed49478-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Space will be hackable. Space will be playful.\n\nWith humanit
+ y at the cusp of interplanetary civilization\, it's time to build the tech
+ nologies\, tools\, and human experiences of our Sci-Fi Space Future. To do
+  so\, we unite artists\, scientists\, engineers\, and designers in creatin
+ g space technologies that envision a bold and culturally rich “new space
+  age”-- from astro-bacteria wearables\, to open-access and shareable cub
+ esat constellations\, to musical instruments for our space voyages\, to fl
+ oating space habitats\, to advanced zero-gravity 3D printing. The MIT Spac
+ e Exploration Initiative (SEI) supports 40+ research projects\, regular ze
+ ro-g parabolic flights\, suborbital and orbital launch research deployment
+ s\, and a team of 50+ students\, staff\, and faculty--we aim to found a re
+ al-life Starfleet Academy. The SEI is coming to Yale this fall to lead wor
+ kshops in four of our core research areas and introduce student teams to o
+ pportunities to fly in Zero Gravity. We hope you'll join us! Feel free to 
+ join for as many of the morning and afternoon sessions as you like--you do
+  not need to attend all four topic areas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTSTAMP;VALUE=DATE-TIME:20191104T050000Z
+UID:bed49cb6-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Application and Grant Writing\n\nThis Application and G
+ rant Writing workshop explores key elements for applying for grant funding
+  and submitting a compelling\, complete grant application. \n\nThis worksh
+ op is hosted by Jackie Downing\, Director of Grantmaking and Nonprofit Eff
+ ectiveness at the Community Foundation for Greater New Haven
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Orientation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTSTAMP;VALUE=DATE-TIME:20191104T050000Z
+UID:bed4a436-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Women Innovator Breakfast Series
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTSTAMP;VALUE=DATE-TIME:20191105T050000Z
+UID:bed4ab98-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fireside Chat and Reception with Mona Bijoor
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTSTAMP;VALUE=DATE-TIME:20191105T050000Z
+UID:bed4b2e6-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Needs editing: \nWhile working at companies such as Chanel\, A
+ nn Taylor and Elie Tahari\, Mona Bijoor saw an opportunity to eliminate ma
+ ny of the inefficiencies in the fashion supply chain and seized upon it. S
+ he founded JOOR\, an online ecosystem that seamlessly connects brands and 
+ retailers by unlocking vital data between the two parties. She has grown J
+ OOR to now serve over 500 fashion brands and 30\,000 retailers worldwide. 
+ In her recent book\, Startups and Downs\, Mona shares her wisdom and stori
+ es (hers and others’) about how the best entrepreneurs think about failu
+ re—as it’s happening and in hindsight—and ultimately win.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Office Hours with Mona Bijoor
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTSTAMP;VALUE=DATE-TIME:20191105T050000Z
+UID:bed4ba0c-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Needs editing: \nWhile working at companies such as Chanel\, A
+ nn Taylor and Elie Tahari\, Mona Bijoor saw an opportunity to eliminate ma
+ ny of the inefficiencies in the fashion supply chain and seized upon it. S
+ he founded JOOR\, an online ecosystem that seamlessly connects brands and 
+ retailers by unlocking vital data between the two parties. She has grown J
+ OOR to now serve over 500 fashion brands and 30\,000 retailers worldwide. 
+ In her recent book\, Startups and Downs\, Mona shares her wisdom and stori
+ es (hers and others’) about how the best entrepreneurs think about failu
+ re—as it’s happening and in hindsight—and ultimately win.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTSTAMP;VALUE=DATE-TIME:20191107T050000Z
+UID:bed4bfd4-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Storytelling for Innovators\n\nInnovators and entrepren
+ eurs are constantly put on the spot to speak\, and they often need to crea
+ te compelling stories about their ideas. Join the Yale Exit Players\, Yale
+ ’s oldest improv comedy group\, for an interactive workshop where you’
+ ll learn to speak on your feet with serious confidence\, master the art of
+  on-the-spot narratives that captivate your audience\, and maybe even lear
+ n the secrets to great comedy! This will be an active workshop\, so please
+  wear comfortable clothing.\n\nThis workshop is part of the Innovator's To
+ olkit\, a series of free workshops focused on key skills for innovation.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Healthcare Innovation Career Panel
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTSTAMP;VALUE=DATE-TIME:20191108T050000Z
+UID:bed4c588-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Match
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTSTAMP;VALUE=DATE-TIME:20191108T050000Z
+UID:bed4cb32-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Maybe you're getting an idea or project off the ground\, and y
+ ou're looking for co-founders or collaborators to help you get there. On t
+ he flip side\, maybe you don't have an idea in mind\, but you're intereste
+ d in applying your skills or joining a team that's building something awes
+ ome. No matter which group you fall into\, how do you find collaborators\,
+  figure out the right fit\, and align on goals?\n\nJoin Tsai CITY and Thin
+ kspaces for The Match: a workshop and "speed dating" session that will hel
+ p you answer these questions. Peter Boyd — a Tsai CITY mentor in reside
+ nce who's worked alongside innovators like Richard Branson to combat clima
+ te change as a senior leader at the B Team and the Carbon War Room\, led V
+ irgin Mobile South Africa as CEO\, and more — will guide you through key
+  strategies for finding and forming effective collaborations and teams. Yo
+ u'll then move into conversations with fellow participants co-hosted by Th
+ inkspaces\, a student-run venture that aims to "make collaboration easier 
+ by connecting you with other Yalies who get things done\, just like you." 
+ Whether you're looking for teammates or looking to join a team\, you'll le
+ ave the workshop with new skills for finding the right match — and maybe
+  your next collaborator.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yong Zhao of Junzi
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191112T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191112T000000
+DTSTAMP;VALUE=DATE-TIME:20191112T050000Z
+UID:bed4d0f0-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Yong\, an FES alum\, will speak about his entrepreneurial jour
+ ney in starting Junzi as well as the ups and downs of being a food entrepr
+ eneur. Naturally\, Junzi food will be served.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Women Innovator Breakfast Series
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191113T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191113T000000
+DTSTAMP;VALUE=DATE-TIME:20191113T050000Z
+UID:bed4d69a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenEarth Collabathon - Day 1 (Launch)
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTSTAMP;VALUE=DATE-TIME:20191114T050000Z
+UID:bed4dc4e-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:We are organizing a non-competitive open and collaborative hac
+ kathon (collabathon) to build on and develop a globally trusted tool to mo
+ nitor Earth’s atmospheric carbon budget and global climate accounting. T
+ he initiative started with a design sprint on December 8th\, coinciding wi
+ th the UNFCCC COP24\, continued with a Hackathon in Yale-NUS Singapore and
+  finally consolidated over the summer of 2019 incubating a first prototype
+  of the platform. The output of this open and collaborative effort — Ope
+ n Climate — is an open source software-based framework that would act as
+  an accounting tool for Earth system governance\; an impartial algorithmic
+  system that can achieve decentralized and immutable consensus on one of E
+ arth’s most important vital signs as well as provide accountability to a
+ ll climate actors —from countries to cities and companies— on their ac
+ tion pledges towards a net zero carbon future.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Fall Pitchoff
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTSTAMP;VALUE=DATE-TIME:20191114T050000Z
+UID:bed4e1f8-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art Tech Workshop: Art meets AI: Machine Learning
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTSTAMP;VALUE=DATE-TIME:20191115T050000Z
+UID:bed4eb44-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:A conversation about Artificial Intelligence\, Deep Learning\,
+  and Neural Networks in the arts\, followed by a hands on tutorial on crea
+ ting your own Deep Learning Artistic Agent.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Skills for Sustainable Innovation: Marketing & Communications for 
+ Responsible Ventures
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTSTAMP;VALUE=DATE-TIME:20191115T050000Z
+UID:bed4f968-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Join Vincent Stanley (CBEY Resident Fellow and Director\, Pata
+ gonia Philosophy) in a workshop focused on marketing & communications for 
+ responsible ventures.\n\nThrough discussion and exercises\, this workshop 
+ will explore why and how businesses that assume full responsibility for th
+ eir social and environmental impacts can and must be transparent and consi
+ stent in marketing and communications with all stakeholders—employees\, 
+ suppliers\, NGOs and neighbors as well as customers. \n\nRobust communicat
+ ion of responsible practices (and the challenges they create) supports a h
+ ealthy business culture that builds equity over time through quality\, inn
+ ovation and continuous improvement. A radically transparent approach to ma
+ rketing also creates internal discipline that helps a company focus on str
+ ategies that both identify and realize its best purpose. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenEarth Collabathon - Day 2 (Hack)
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTSTAMP;VALUE=DATE-TIME:20191115T050000Z
+UID:bed50552-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:We are organizing a non-competitive open and collaborative hac
+ kathon (collabathon) to build on and develop a globally trusted tool to mo
+ nitor Earth’s atmospheric carbon budget and global climate accounting. T
+ he initiative started with a design sprint on December 8th\, coinciding wi
+ th the UNFCCC COP24\, continued with a Hackathon in Yale-NUS Singapore and
+  finally consolidated over the summer of 2019 incubating a first prototype
+  of the platform. The output of this open and collaborative effort — Ope
+ n Climate — is an open source software-based framework that would act as
+  an accounting tool for Earth system governance\; an impartial algorithmic
+  system that can achieve decentralized and immutable consensus on one of E
+ arth’s most important vital signs as well as provide accountability to a
+ ll climate actors —from countries to cities and companies— on their ac
+ tion pledges towards a net zero carbon future.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenEarth Collabathon - Day 3 Hack)
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191116T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191116T000000
+DTSTAMP;VALUE=DATE-TIME:20191116T050000Z
+UID:bed50c0a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:We are organizing a non-competitive open and collaborative hac
+ kathon (collabathon) to build on and develop a globally trusted tool to mo
+ nitor Earth’s atmospheric carbon budget and global climate accounting. T
+ he initiative started with a design sprint on December 8th\, coinciding wi
+ th the UNFCCC COP24\, continued with a Hackathon in Yale-NUS Singapore and
+  finally consolidated over the summer of 2019 incubating a first prototype
+  of the platform. The output of this open and collaborative effort — Ope
+ n Climate — is an open source software-based framework that would act as
+  an accounting tool for Earth system governance\; an impartial algorithmic
+  system that can achieve decentralized and immutable consensus on one of E
+ arth’s most important vital signs as well as provide accountability to a
+ ll climate actors —from countries to cities and companies— on their ac
+ tion pledges towards a net zero carbon future.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenEarth Collabathon - Week (Remote)
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191117T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191117T000000
+DTSTAMP;VALUE=DATE-TIME:20191117T050000Z
+UID:bed51236-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:We are organizing a non-competitive open and collaborative hac
+ kathon (collabathon) to build on and develop a globally trusted tool to mo
+ nitor Earth’s atmospheric carbon budget and global climate accounting. T
+ he initiative started with a design sprint on December 8th\, coinciding wi
+ th the UNFCCC COP24\, continued with a Hackathon in Yale-NUS Singapore and
+  finally consolidated over the summer of 2019 incubating a first prototype
+  of the platform. The output of this open and collaborative effort — Ope
+ n Climate — is an open source software-based framework that would act as
+  an accounting tool for Earth system governance\; an impartial algorithmic
+  system that can achieve decentralized and immutable consensus on one of E
+ arth’s most important vital signs as well as provide accountability to a
+ ll climate actors —from countries to cities and companies— on their ac
+ tion pledges towards a net zero carbon future.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Henry Blodget/Journalism event
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191118T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191118T000000
+DTSTAMP;VALUE=DATE-TIME:20191118T050000Z
+UID:bed5183a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD\, emailed Jen to see if her team was creating one
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Fellowship and Prize Information Session
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191119T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191119T000000
+DTSTAMP;VALUE=DATE-TIME:20191119T050000Z
+UID:bed51e20-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date Tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hunt
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191120T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191120T000000
+DTSTAMP;VALUE=DATE-TIME:20191120T050000Z
+UID:bed52442-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Orientation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191122T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191122T000000
+DTSTAMP;VALUE=DATE-TIME:20191122T050000Z
+UID:bed52a1e-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Space Exploration Workshop Series: Prototyping our Life in Space
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191122T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191122T000000
+DTSTAMP;VALUE=DATE-TIME:20191122T050000Z
+UID:bed53040-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Space will be hackable. Space will be playful.\n\nWith humanit
+ y at the cusp of interplanetary civilization\, it's time to build the tech
+ nologies\, tools\, and human experiences of our Sci-Fi Space Future. To do
+  so\, we unite artists\, scientists\, engineers\, and designers in creatin
+ g space technologies that envision a bold and culturally rich “new space
+  age”-- from astro-bacteria wearables\, to open-access and shareable cub
+ esat constellations\, to musical instruments for our space voyages\, to fl
+ oating space habitats\, to advanced zero-gravity 3D printing. The MIT Spac
+ e Exploration Initiative (SEI) supports 40+ research projects\, regular ze
+ ro-g parabolic flights\, suborbital and orbital launch research deployment
+ s\, and a team of 50+ students\, staff\, and faculty--we aim to found a re
+ al-life Starfleet Academy. The SEI is coming to Yale this fall to lead wor
+ kshops in four of our core research areas and introduce student teams to o
+ pportunities to fly in Zero Gravity. We hope you'll join us! Feel free to 
+ join for as many of the morning and afternoon sessions as you like--you do
+  not need to attend all four topic areas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UNFCCC Climate Negotiation Week
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191201T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191201T000000
+DTSTAMP;VALUE=DATE-TIME:20191201T050000Z
+UID:bed535ea-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Side event at the UN Conference of the Parties in Chile to dis
+ cuss the OpenClimate platform incubated at the OpenLab\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Study Break
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191204T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191204T000000
+DTSTAMP;VALUE=DATE-TIME:20191204T050000Z
+UID:bed53b8a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pitch Slam or Fail Night
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191205T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191205T000000
+DTSTAMP;VALUE=DATE-TIME:20191205T050000Z
+UID:bed54332-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Orientation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191205T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191205T000000
+DTSTAMP;VALUE=DATE-TIME:20191205T050000Z
+UID:bed54de6-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:use last year's
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Study Break
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191206T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191206T000000
+DTSTAMP;VALUE=DATE-TIME:20191206T050000Z
+UID:bed558a4-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Space Exploration Workshop Series: Prototyping our Life in Space
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191206T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191206T000000
+DTSTAMP;VALUE=DATE-TIME:20191206T050000Z
+UID:bed56010-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Space will be hackable. Space will be playful.\n\nWith humanit
+ y at the cusp of interplanetary civilization\, it's time to build the tech
+ nologies\, tools\, and human experiences of our Sci-Fi Space Future. To do
+  so\, we unite artists\, scientists\, engineers\, and designers in creatin
+ g space technologies that envision a bold and culturally rich “new space
+  age”-- from astro-bacteria wearables\, to open-access and shareable cub
+ esat constellations\, to musical instruments for our space voyages\, to fl
+ oating space habitats\, to advanced zero-gravity 3D printing. The MIT Spac
+ e Exploration Initiative (SEI) supports 40+ research projects\, regular ze
+ ro-g parabolic flights\, suborbital and orbital launch research deployment
+ s\, and a team of 50+ students\, staff\, and faculty--we aim to found a re
+ al-life Starfleet Academy. The SEI is coming to Yale this fall to lead wor
+ kshops in four of our core research areas and introduce student teams to o
+ pportunities to fly in Zero Gravity. We hope you'll join us! Feel free to 
+ join for as many of the morning and afternoon sessions as you like--you do
+  not need to attend all four topic areas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WE@Yale Cupcakes & Coding
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191211T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191211T000000
+DTSTAMP;VALUE=DATE-TIME:20191211T050000Z
+UID:bed5683a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:bed56e16-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Fundraising for Non-Profits\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:bed5741a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Pitching 101 \n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Innovators Toolkit Workshop 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:bed579f6-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Title: Developing a Website - A Beginner's How-To \n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Data and the Future of Agriculture
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:bed57fd2-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD (Spring\, one day)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food\, Media\, and Storytelling
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:bed58590-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD (Spring\, one day)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Startup Yale Prize Info Session (Spring)
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200121T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200121T000000
+DTSTAMP;VALUE=DATE-TIME:20200121T050000Z
+UID:bed58b44-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200207T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200207T000000
+DTSTAMP;VALUE=DATE-TIME:20200207T050000Z
+UID:bed5917a-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200214T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200214T000000
+DTSTAMP;VALUE=DATE-TIME:20200214T050000Z
+UID:bed597ba-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 3
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200221T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200221T000000
+DTSTAMP;VALUE=DATE-TIME:20200221T050000Z
+UID:bed59da0-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 4
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200228T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200228T000000
+DTSTAMP;VALUE=DATE-TIME:20200228T050000Z
+UID:bed5a37c-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 5
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200327T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200327T000000
+DTSTAMP;VALUE=DATE-TIME:20200327T050000Z
+UID:bed5a926-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts & Media Innovation Awardee Showcase
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200327T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200327T000000
+DTSTAMP;VALUE=DATE-TIME:20200327T050000Z
+UID:bed5af20-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 6
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200403T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200403T000000
+DTSTAMP;VALUE=DATE-TIME:20200403T050000Z
+UID:bed5b538-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 7
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200410T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200410T000000
+DTSTAMP;VALUE=DATE-TIME:20200410T050000Z
+UID:bed5bb14-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Startup Yale Day 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200416T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200416T000000
+DTSTAMP;VALUE=DATE-TIME:20200416T050000Z
+UID:bed5c122-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Climate Change Solutions Generator - Session 8
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTSTAMP;VALUE=DATE-TIME:20200417T050000Z
+UID:bed5c6b8-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sabin Prize Competition
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTSTAMP;VALUE=DATE-TIME:20200417T050000Z
+UID:bed5ccd0-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:Date/time tentative
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Startup Yale Day 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200417T000000
+DTSTAMP;VALUE=DATE-TIME:20200417T050000Z
+UID:bed5d298-ed3b-11e9-8846-8c859059e33e
+DESCRIPTION:TBD
+END:VEVENT
+END:VCALENDAR
