@@ -1,8 +1,9 @@
+import os
 import arrow  # timestamps
 from airtable import Airtable  # airtable API
 from pprint import pprint  # debugging
 from ics import Calendar, Event  # ICS API
-from flask import Flask, escape, request  # web server
+from flask import Flask, escape, request, send_file  # web server
 
 # create web server
 app = Flask(__name__)
@@ -102,8 +103,11 @@ def public():
     # create an ICS feed
     public_feed = calendarFromICSEvents(public_events)
 
-    # return response
-    return str(public_feed)
+    # return response as a new file
+    if os.path.exists("tsai-public.ics"):
+        os.remove("tsai-public.ics")
+    open("tsai-public.ics", "w").writelines(public_feed)
+    return send_file("tsai-public.ics", as_attachment=True)
 
 
 @app.route("/private")
@@ -120,6 +124,9 @@ def private():
     # create an ICS feed
     private_feed = calendarFromICSEvents(private_events)
 
-    # return response
-    return str(private_feed)
+    # return response as a new file
+    if os.path.exists("tsai-private.ics"):
+        os.remove("tsai-private.ics")
+    open("tsai-private.ics", "w").writelines(private_feed)
+    return send_file("tsai-private.ics", as_attachment=True)
 

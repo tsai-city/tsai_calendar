@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/sarimabbas/Developer/.virtualenv/tsai_city_serverless_calendar/bin/python"
+    "python.pythonPath": "/Users/sarimabbas/Developer/virtualenv/py_general_venv/bin/python",
+    "python.formatting.provider": "black"
 }
