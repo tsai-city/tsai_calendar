@@ -156,7 +156,7 @@ def returnFile(path, df):
     if os.path.exists(path):
         os.remove(path)
     df.to_csv(path)
-    return send_file(path, as_attachment=True)
+    return send_file(path, as_attachment=True, cache_timeout=-1)
 
 
 @app.route("/private-csv")
