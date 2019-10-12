@@ -1,9 +1,12 @@
 import os
+import datetime
 import arrow  # timestamps
+import pandas as pd
 from airtable import Airtable  # airtable API
 from pprint import pprint  # debugging
 from ics import Calendar, Event  # ICS API
-from flask import Flask, escape, request, send_file  # web server
+from flask import Flask, escape, request, send_file, jsonify  # web server
+
 
 # create web server
 app = Flask(__name__)
@@ -130,3 +133,44 @@ def private():
     open("tsai-private.ics", "w").writelines(private_feed)
     return send_file("tsai-private.ics", as_attachment=True)
 
+
+def getToday():
+    now = datetime.datetime.now()
+    return now.strftime("%m/%d/%Y")
+
+
+def transformToCSVRow(airtableObj):
+    fields = airtableObj["fields"]
+    row = {
+        "Subject": fields["Event Title"] if "Event Title" in fields else "",
+        "Start Date": fields["Date"] if "Date" in fields else getToday(),
+        "Start Time": fields["Start"] if "Start" in fields else "",
+        "End Time": fields["End"] if "End" in fields else "",
+        "Description": fields["Event Blurb"] if "Event Blurb" in fields else "",
+    }
+    return row
+
+
+def returnFile(path, df):
+    if os.path.exists(path):
+        os.remove(path)
+    df.to_csv(path)
+    return send_file(path, as_attachment=True)
+
+
+@app.route("/private-csv")
+def private_csv():
+    all_events = airtable.get_all(view="Everything Next")
+    private = list(filter(lambda event: not isPublic(event), all_events))
+    rows = [transformToCSVRow(i) for i in private]
+    dataframe = pd.DataFrame(rows)
+    return returnFile("private.csv", dataframe)
+
+
+@app.route("/public-csv")
+def public_csv():
+    all_events = airtable.get_all(view="Everything Next")
+    public = list(filter(lambda event: isPublic(event), all_events))
+    rows = [transformToCSVRow(i) for i in public]
+    dataframe = pd.DataFrame(rows)
+    return returnFile("public.csv", dataframe)
