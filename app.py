@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 from datetime import datetime
 from pprint import pprint  # debugging
 from airtable import Airtable  # airtable API
@@ -24,8 +23,8 @@ def index():
 
 def getDatetime(daystamp, timestamp):
     # alter timestamp
-    if "AM" not in timestamp or "PM" not in timestamp:
-        timestamp = "12:00AM"
+    if not timestamp or timestamp == "TBD":
+        timestamp = "12:00 AM"
     # make full timestamp
     fullTimestamp = daystamp + "-" + timestamp
     fullTimestamp = fullTimestamp.replace(" ", "")
