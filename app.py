@@ -5,7 +5,7 @@ from airtable import Airtable  # airtable API
 from icalendar import Calendar, Event
 from pytz import timezone  # timezone
 from uuid import uuid1
-from flask import Flask, escape, request, send_file, jsonify  # web server
+from flask import Flask, escape, request, send_file, render_template  # web server
 
 # create web server
 app = Flask(__name__)
@@ -18,7 +18,7 @@ airtable = Airtable(
 
 @app.route("/")
 def index():
-    return f"Tsai CITY ICS feed generator. Navigate to either /public or /private"
+    return render_template("index.html")
 
 
 def getDatetime(daystamp, timestamp):
