@@ -145,6 +145,7 @@ def transformToCSVRow(airtableObj):
         "Subject": fields["Event Title"] if "Event Title" in fields else "",
         "Start Date": fields["Date"] if "Date" in fields else getToday(),
         "Start Time": fields["Start"] if "Start" in fields else "",
+        "End Date": fields["Date"] if "Date" in fields else getToday(),
         "End Time": fields["End"] if "End" in fields else "",
         "Description": fields["Event Blurb"] if "Event Blurb" in fields else "",
     }
