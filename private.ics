@@ -1,0 +1,494 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:<tsai-cal>
+BEGIN:VEVENT
+SUMMARY:Avangrid Innovation Forum
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTSTAMP;VALUE=DATE-TIME:20191010T050000Z
+UID:395040ba-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Showcase the pilot project with Avangrid using the OpenClimate
+  platform incubated at the OpenLab
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food Product Intensive Session 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTSTAMP;VALUE=DATE-TIME:20191010T050000Z
+UID:3950508c-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:For the food-obsessed\, the secret chefs\, and the ambitious e
+ aters—step away from your studies with an extracurricular intensive (a d
+ eep-dive\, 5-session workshop) you can really dig your teeth into from Tsa
+ i CITY\, the Landscape Lab\, and the Sustainable Food Program. Over five w
+ eeks\, the 5-session food intensive will explore how to take an idea or pr
+ ototype for a food product—like your crazy idea for plankton-based pasta
+ \, the recipe you’re working on for a super-high-tech energy bar\, or th
+ e local-food-based meals you've been stocking your freezer with—from a b
+ ig idea in your dorm kitchen to the global market.\n\n\n\nThe five session
+ s will walk you through the steps of transforming an idea into a product\,
+  and a product into production: addressing ethics\, sourcing ingredients\,
+  manufacturing food products\, defining your brand\, taking goods to marke
+ t\, and working towards scale. Learn from industry experts about the best 
+ techniques for creating your own secret sauce\, the right person to talk t
+ o for your key ingredients\, and what a recipe for success looks like in t
+ he food industry. Develop your idea\, your pitch\, and your brand through 
+ discussion with industry experts\, group critiques of what you're working 
+ on\, and in-depth mentorship.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenLab - Team meeting 2 / Climate Accounting
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191010T000000
+DTSTAMP;VALUE=DATE-TIME:20191010T050000Z
+UID:39505a5a-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Openlab meeting to discuss progress of the OpenClimate project
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Fall 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191011T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191011T000000
+DTSTAMP;VALUE=DATE-TIME:20191011T050000Z
+UID:39506360-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Junzi 4 Year Anniversary Party
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191021T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191021T000000
+DTSTAMP;VALUE=DATE-TIME:20191021T050000Z
+UID:39506c48-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Fall 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191025T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191025T000000
+DTSTAMP;VALUE=DATE-TIME:20191025T050000Z
+UID:395075b2-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191028T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191028T000000
+DTSTAMP;VALUE=DATE-TIME:20191028T050000Z
+UID:39507cb0-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dave Menard Office Hours 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191028T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191028T000000
+DTSTAMP;VALUE=DATE-TIME:20191028T050000Z
+UID:39508390-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Schedule 25-minute one-on-one time with legal expert Dave Mena
+ rd of Murtha Cullina. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food Product Intensive Session 3
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191031T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191031T000000
+DTSTAMP;VALUE=DATE-TIME:20191031T050000Z
+UID:39508a84-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:For the food-obsessed\, the secret chefs\, and the ambitious e
+ aters—step away from your studies with an extracurricular intensive (a d
+ eep-dive\, 5-session workshop) you can really dig your teeth into from Tsa
+ i CITY\, the Landscape Lab\, and the Sustainable Food Program. Over five w
+ eeks\, the 5-session food intensive will explore how to take an idea or pr
+ ototype for a food product—like your crazy idea for plankton-based pasta
+ \, the recipe you’re working on for a super-high-tech energy bar\, or th
+ e local-food-based meals you've been stocking your freezer with—from a b
+ ig idea in your dorm kitchen to the global market.\n\n\n\nThe five session
+ s will walk you through the steps of transforming an idea into a product\,
+  and a product into production: addressing ethics\, sourcing ingredients\,
+  manufacturing food products\, defining your brand\, taking goods to marke
+ t\, and working towards scale. Learn from industry experts about the best 
+ techniques for creating your own secret sauce\, the right person to talk t
+ o for your key ingredients\, and what a recipe for success looks like in t
+ he food industry. Develop your idea\, your pitch\, and your brand through 
+ discussion with industry experts\, group critiques of what you're working 
+ on\, and in-depth mentorship.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Fall 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTSTAMP;VALUE=DATE-TIME:20191101T050000Z
+UID:395091a0-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eco-Entrepreneurs Pitch Competition at YESS
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191101T000000
+DTSTAMP;VALUE=DATE-TIME:20191101T050000Z
+UID:3950989e-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Yale students and alumni working on environmental ventures wil
+ l pitch their ideas to the audience of the Yale Environmental Sustainabili
+ ty Summit\, which includes alumni and other sustainability professionals.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191104T000000
+DTSTAMP;VALUE=DATE-TIME:20191104T050000Z
+UID:3950a3d4-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tsai CITY Staff Training - Listening and Empathy Skillbuilding
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191105T000000
+DTSTAMP;VALUE=DATE-TIME:20191105T050000Z
+UID:3950abae-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Staff Training - Listening and Empathy Skillbuilding presented
+  by Dr. Auguste Fortin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Student Advisory Board Meeting
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTSTAMP;VALUE=DATE-TIME:20191107T050000Z
+UID:3950b428-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food Product Intensive Session 4
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191107T000000
+DTSTAMP;VALUE=DATE-TIME:20191107T050000Z
+UID:3950bbe4-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:For the food-obsessed\, the secret chefs\, and the ambitious e
+ aters—step away from your studies with an extracurricular intensive (a d
+ eep-dive\, 5-session workshop) you can really dig your teeth into from Tsa
+ i CITY\, the Landscape Lab\, and the Sustainable Food Program. Over five w
+ eeks\, the 5-session food intensive will explore how to take an idea or pr
+ ototype for a food product—like your crazy idea for plankton-based pasta
+ \, the recipe you’re working on for a super-high-tech energy bar\, or th
+ e local-food-based meals you've been stocking your freezer with—from a b
+ ig idea in your dorm kitchen to the global market.\n\n\n\nThe five session
+ s will walk you through the steps of transforming an idea into a product\,
+  and a product into production: addressing ethics\, sourcing ingredients\,
+  manufacturing food products\, defining your brand\, taking goods to marke
+ t\, and working towards scale. Learn from industry experts about the best 
+ techniques for creating your own secret sauce\, the right person to talk t
+ o for your key ingredients\, and what a recipe for success looks like in t
+ he food industry. Develop your idea\, your pitch\, and your brand through 
+ discussion with industry experts\, group critiques of what you're working 
+ on\, and in-depth mentorship.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Fall 
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191108T000000
+DTSTAMP;VALUE=DATE-TIME:20191108T050000Z
+UID:3950c2f6-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 3
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191111T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191111T000000
+DTSTAMP;VALUE=DATE-TIME:20191111T050000Z
+UID:3950c9ea-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food Product Intensive Session 5
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191114T000000
+DTSTAMP;VALUE=DATE-TIME:20191114T050000Z
+UID:3950d0e8-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:For the food-obsessed\, the secret chefs\, and the ambitious e
+ aters—step away from your studies with an extracurricular intensive (a d
+ eep-dive\, 5-session workshop) you can really dig your teeth into from Tsa
+ i CITY\, the Landscape Lab\, and the Sustainable Food Program. Over five w
+ eeks\, the 5-session food intensive will explore how to take an idea or pr
+ ototype for a food product—like your crazy idea for plankton-based pasta
+ \, the recipe you’re working on for a super-high-tech energy bar\, or th
+ e local-food-based meals you've been stocking your freezer with—from a b
+ ig idea in your dorm kitchen to the global market.\n\n\n\nThe five session
+ s will walk you through the steps of transforming an idea into a product\,
+  and a product into production: addressing ethics\, sourcing ingredients\,
+  manufacturing food products\, defining your brand\, taking goods to marke
+ t\, and working towards scale. Learn from industry experts about the best 
+ techniques for creating your own secret sauce\, the right person to talk t
+ o for your key ingredients\, and what a recipe for success looks like in t
+ he food industry. Develop your idea\, your pitch\, and your brand through 
+ discussion with industry experts\, group critiques of what you're working 
+ on\, and in-depth mentorship.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CEID/CITY STAFF MEETING
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191115T000000
+DTSTAMP;VALUE=DATE-TIME:20191115T050000Z
+UID:3950d7dc-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:NO BLURB\, PRIVATE MEETING FOR CITY AND CEID STAFF ONLY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 4
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191118T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191118T000000
+DTSTAMP;VALUE=DATE-TIME:20191118T050000Z
+UID:3950deee-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts + Media Innovation Fund - Group meeting w/ award winners
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191121T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191121T000000
+DTSTAMP;VALUE=DATE-TIME:20191121T050000Z
+UID:3950e60a-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yale Assembly & Convocation
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191121T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191121T000000
+DTSTAMP;VALUE=DATE-TIME:20191121T050000Z
+UID:3950ecfe-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 5
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191202T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191202T000000
+DTSTAMP;VALUE=DATE-TIME:20191202T050000Z
+UID:3950f3f2-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Student Advisory Board Meeting
+DTSTART;TZID=EST;VALUE=DATE-TIME:20191204T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20191204T000000
+DTSTAMP;VALUE=DATE-TIME:20191204T050000Z
+UID:3950fadc-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Intensive Session 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:395101c6-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:TBD (Spring\, full semester | @ YNHH)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Intensive Session 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:395108ce-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:TBD (Spring\, full semester | @ YNHH)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Intensive Session 3
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39511346-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:TBD (Spring\, full semester | @ YNHH)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clinical Redesign Intensive Session 4
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39511a62-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:TBD (Spring\, full semester | @ YNHH)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:3951217e-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39512886-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39512f84-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring Pitchoff
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39513682-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39513d6c-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39514474-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39514b72-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CITY Accelerator - Spring
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39515266-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:use last years\n\n
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food Waste to Food Products Retreat
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:3951598c-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:TBD (Spring\, one day)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Change Makers Retreat
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200101T000000
+DTSTAMP;VALUE=DATE-TIME:20200101T050000Z
+UID:39516080-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 6
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200127T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200127T000000
+DTSTAMP;VALUE=DATE-TIME:20200127T050000Z
+UID:3951677e-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts + Media Innovation Fund - Group meeting w/ award winners
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200130T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200130T000000
+DTSTAMP;VALUE=DATE-TIME:20200130T050000Z
+UID:39516e7c-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Financing Innovative Ideas Intensive Session 7
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200203T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200203T000000
+DTSTAMP;VALUE=DATE-TIME:20200203T050000Z
+UID:395176e2-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:This will be Tsai CITY’s first-ever Intensive focused on fin
+ ance. We’ll explore how to raise and direct capital towards innovation t
+ hat makes the world a better place.\n\nStudents will work in teams to buil
+ d financial models\, develop financing strategies\, and communicate impact
+  in creative ways that might not be apparent from the numbers alone. Stude
+ nts will have time over winter break to ground-truth their assumptions and
+  build out their models in detail (students can dedicate as much time as t
+ hey see fit during this period). Then they’ll reconvene in the spring to
+  share their work and assess what others have produced.\n\nThe Intensive w
+ ill be a great opportunity to explore issues at the intersection of financ
+ e\, entrepreneurship\, and social/environmental responsibility. 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2020 Reality of Climate Change Hackathon Day 1
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200207T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200207T000000
+DTSTAMP;VALUE=DATE-TIME:20200207T050000Z
+UID:39517f98-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Hackathon Launch Day\, featuring guest talks\, team formation\
+ , and some brief workshops
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2020 Reality of Climate Change Hackathon Day 2
+DTSTART;TZID=EST;VALUE=DATE-TIME:20200208T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20200208T000000
+DTSTAMP;VALUE=DATE-TIME:20200208T050000Z
+UID:395185c4-ed39-11e9-8027-8c859059e33e
+DESCRIPTION:Daylong Hackathon focusing on ways to communicate the effects 
+ of Climate Change\, how human actions contribute to Climate Change\, and/o
+ r ways to combat Climate Change
+END:VEVENT
+END:VCALENDAR
