@@ -1,0 +1,18 @@
+IF({Needs Catering} = "yes", 
+
+    <! -- if true --> 
+    IF(
+        <! -- condition --> 
+        OR({# People} = BLANK(), 
+        OR({Room} = BLANK(), {Room} = "TBD")), 
+        
+        <! -- if true --> 
+        "people/room_blank", 
+        
+        <! -- if false --> 
+        "people/room_not_blank"), 
+        
+        
+
+    <! -- if false --> 
+    "no_catering_needed")

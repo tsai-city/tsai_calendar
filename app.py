@@ -1,3 +1,5 @@
+# ---------------------------------- Imports --------------------------------- #
+
 import os
 from datetime import datetime
 from pprint import pprint  # debugging
@@ -7,6 +9,8 @@ from pytz import timezone  # timezone
 from uuid import uuid1
 from flask import Flask, escape, request, send_file, render_template  # web server
 
+# ----------------------------------- Setup ---------------------------------- #
+
 # create web server
 app = Flask(__name__)
 
@@ -15,10 +19,78 @@ airtable = Airtable(
     base_key="appgB7xnfEEOctuUM", table_name="Events", api_key="keyuvixHmS5OHI7rO"
 )
 
+# ---------------------------------- Routes ---------------------------------- #
+
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
+
+@app.route("/private")
+def private_ics():
+    return createCalendarFromFilter(isPrivate, "private")
+
+
+@app.route("/public")
+def public_ics():
+    return createCalendarFromFilter(isPublic, "public")
+
+
+# ------------------------ The brains of the operation ----------------------- #
+
+
+def createCalendarFromFilter(filter_function, calendar_name):
+    # get airtable rows
+    all_events = airtable.get_all(view="Everything Next")
+
+    # apply filter function
+    filtered = list(filter(lambda event: filter_function(event), all_events))
+
+    # transform to ics events
+    transformed = [transformAirtableObjToICSEvent(i) for i in filtered]
+
+    # prepare new calendar
+    cal = createNewCalendar(calendar_name)
+    for e in transformed:
+        cal.add_component(e)
+
+    # write to file
+    writeToFile(cal, f"{calendar_name}.ics")
+    return send_file(f"{calendar_name}.ics", as_attachment=True, cache_timeout=-1)
+
+
+# ----------------------------- Filter functions ----------------------------- #
+
+
+def isPublic(event):
+    if "Calendar Code" in event["fields"]:
+        return event["fields"]["Calendar Code"] == "Public"
+    return False
+
+
+def isPrivate(event):
+    return not isPublic(event)
+
+
+# ----------------------------- Helper functions ----------------------------- #
+
+
+def writeToFile(calendar, name):
+    # remove file if it already exists
+    if os.path.exists(name):
+        os.remove(name)
+    # create a new file
+    f = open(name, "wb")
+    f.write(calendar.to_ical())
+    f.close()
+
+
+def createNewCalendar(name):
+    cal = Calendar()
+    cal.add("prodid", f"<{name}>")
+    cal.add("version", "2.0")
+    return cal
 
 
 def getDatetime(daystamp, timestamp):
@@ -30,13 +102,12 @@ def getDatetime(daystamp, timestamp):
     fullTimestamp = fullTimestamp.replace(" ", "")
     # parse and return
     d = datetime.strptime(fullTimestamp, "%Y-%m-%d-%I:%M%p")
-    # d = d.replace(tzinfo=timezone("EST"))
+    d = d.replace(tzinfo=timezone("EST"))
     return d
 
 
 def getToday():
-    d = datetime.now()
-    # .replace(tzinfo=timezone("EST"))
+    d = datetime.now().replace(tzinfo=timezone("EST"))
     d = d.strftime("%Y-%m-%d")
     return d
 
@@ -70,58 +141,3 @@ def transformAirtableObjToICSEvent(airtableObj):
     )
     event["uid"] = str(uuid1())
     return event
-
-
-# helper function to check if an airtable event is public
-def isPublic(event):
-    if "Calendar Code" in event["fields"]:
-        return event["fields"]["Calendar Code"] == "Public"
-    return False
-
-
-@app.route("/private")
-def private_ics():
-    # get airtable rows
-    all_events = airtable.get_all(view="Everything Next")
-    filtered = list(filter(lambda event: not isPublic(event), all_events))
-    transformed = [transformAirtableObjToICSEvent(i) for i in filtered]
-
-    # prepare
-    cal = Calendar()
-    cal.add("prodid", "<tsai-cal-private>")
-    cal.add("version", "2.0")
-
-    # create events
-    for e in transformed:
-        cal.add_component(e)
-
-    if os.path.exists("private.ics"):
-        os.remove("private.ics")
-    f = open("private.ics", "wb")
-    f.write(cal.to_ical())
-    f.close()
-    return send_file("private.ics", as_attachment=True, cache_timeout=-1)
-
-
-@app.route("/public")
-def public_ics():
-    # get airtable rows
-    all_events = airtable.get_all(view="Everything Next")
-    filtered = list(filter(lambda event: isPublic(event), all_events))
-    transformed = [transformAirtableObjToICSEvent(i) for i in filtered]
-
-    # prepare
-    cal = Calendar()
-    cal.add("prodid", "<tsai-cal-public>")
-    cal.add("version", "2.0")
-
-    # create events
-    for e in transformed:
-        cal.add_component(e)
-
-    if os.path.exists("public.ics"):
-        os.remove("public.ics")
-    f = open("public.ics", "wb")
-    f.write(cal.to_ical())
-    f.close()
-    return send_file("public.ics", as_attachment=True, cache_timeout=-1)
