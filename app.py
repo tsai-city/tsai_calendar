@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # create an airtable object with connnection to database
 airtable = Airtable(
-    base_key="appgB7xnfEEOctuUM", table_name="Events", api_key="keyuvixHmS5OHI7rO"
+    base_key="appgB7xnfEEOctuUM", table_name="Events", api_key="keyiezBXjoRs0Mpok"
 )
 
 # ---------------------------------- Routes ---------------------------------- #
